@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1731709594376" clover="3.2.0">
+  <project timestamp="1731709594376" name="All files">
+    <metrics statements="19" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="21" coveredelements="19" complexity="0" loc="19" ncloc="19" packages="2" files="2" classes="2"/>
+    <package name="controllers">
+      <metrics statements="12" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="ClaudioController.js" path="/media/clod/c14fdd0a-05ec-44fb-88f9-217ab8c9a98d/code/TEST/cipher_bot/backend/controllers/ClaudioController.js">
+        <metrics statements="12" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="routes">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="claudio_api.js" path="/media/clod/c14fdd0a-05ec-44fb-88f9-217ab8c9a98d/code/TEST/cipher_bot/backend/routes/claudio_api.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

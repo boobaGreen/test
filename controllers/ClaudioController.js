@@ -1,12 +1,10 @@
 const Moralis = require("moralis").default;
 require("dotenv").config();
 
-// Verifica che la chiave API sia caricata correttamente
-console.log("Moralis API Key:", process.env.MORALIS_API_KEY);
-
 // Initialize Moralis
 Moralis.start({
-  apiKey: process.env.MORALIS_API_KEY,
+  apiKey:
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6IjRhZmRmMDYyLTFhZjItNDkzNi1hOGVkLTEyN2M2MmE5OTVkMCIsIm9yZ0lkIjoiNDE2MTg3IiwidXNlcklkIjoiNDI3NzY2IiwidHlwZUlkIjoiMmY3MmViZWMtZGNkOS00M2VhLTgyOWMtNTVjZWIzM2ZmOWFhIiwidHlwZSI6IlBST0pFQ1QiLCJpYXQiOjE3MzE2Mzg1MTIsImV4cCI6NDg4NzM5ODUxMn0.8aRgrltRRDXerjUjBvKOz2x5B5BJvXTsTVifyDOTxZ0",
 });
 
 exports.getBalance = async (req, res) => {
